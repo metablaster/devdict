@@ -1,0 +1,56 @@
+// https://cspell.org
+// https://github.com/streetsidesoftware/vscode-spell-checker
+// NOTE: Settings which are not recognized here are defined in settings.json
+{
+	"version": "0.2",
+	"enabled": true,
+	// "checkOnlyEnabledFileTypes" (in settings)
+	"enableFiletypes": [
+		"json",
+		"jsonc",
+		"ignore",
+		"properties" // gitattributes, *.conf
+	],
+	// BUG: Does not work, but ${workspaceFolder} is the default anyway
+	//"globRoot": "${workspaceFolder}",
+	"ignorePaths": [
+		"/.git"
+	],
+	"noConfigSearch": false,
+	// "spellCheckOnlyWorkspaceFiles" (in settings)
+	"useGitignore": true,
+	"caseSensitive": false,
+	// "customDictionaries"(in settings)
+	"ignoreWords": [],
+	"language": "en-US",
+	"allowCompoundWords": true,
+	"enabledLanguageIds": [
+		"markdown",
+		"plaintext"
+	],
+	// "blockCheckingWhenAverageChunkSizeGreaterThan" (in settings)
+	// "blockCheckingWhenLineLengthGreaterThan": (in settings)
+	// "blockCheckingWhenTextChunkSizeGreaterThan": (in settings)
+	// "checkLimit": (in settings)
+	// "spellCheckDelayMs": (in user settings)
+	"suggestionsTimeout": 400,
+	// "autoFormatConfigFile": (in settings)
+	// "diagnosticLevel": (in settings)
+	"maxDuplicateProblems": 3,
+	"maxNumberOfProblems": 20,
+	"minWordLength": 4,
+	"numSuggestions": 8,
+	// "showAutocompleteSuggestions": (in settings)
+	// "showCommandsInEditorContextMenu": (in settings)
+	// "showStatus": (in settings)
+	// "showStatusAlignment": (in settings)
+	// "showSuggestionsLinkInEditorContextMenu": (in settings)
+	// "suggestionMenuType": (in settings)
+	"suggestionNumChanges": 3,
+	// TODO: test with true
+	"validateDirectives": false,
+	"words": [],
+	"flagWords": [
+		// Defined in ${userHome}/dev/cSpell/foul/foul.dic
+	]
+}

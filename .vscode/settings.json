@@ -1,0 +1,512 @@
+// https://code.visualstudio.com/docs/getstarted/settings#_default-settings
+// NOTE: We explicitly define most extension settings to ensure that changes to
+// defaults don't affect us.
+// NOTE: For easy navigation groups of settings are sorted alphabetically and
+// settings within individual groups are also alphabetically sorted.
+// Extension settings go after VSCode settings
+{
+	// VSCode: File specific settings
+	"[markdown]": {
+		// Word wrapping must be explicity set for markdown
+		// see: https://github.com/microsoft/vscode/issues/72559
+		"editor.wordWrap": "off",
+		// Markdown standard is 2 spaces for indentation
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		// Markdown All in One (yzhang.markdown-all-in-one) formats lists, tables and TOC
+		// markdownlint (DavidAnson.vscode-markdownlint) formats only certain violations
+		// Therefore use right click -> Format Document With...
+		// NOTE: markdown-all-in-one formatting will work only with newly created lists, tables and TOC
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	// VSCode: audio cues
+	"audioCues.lineHasError": "off",
+	"audioCues.lineHasWarning": "off",
+	// VSCode: diffeditor
+	"diffEditor.ignoreTrimWhitespace": false,
+	// NOTE: "inherit" does not work for all file formats
+	"diffEditor.wordWrap": "off",
+	// VSCode: editor
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.autoIndent": "full",
+	"editor.codeActionsOnSave": {
+		// No because we don't want to fix auto generated markdown and
+		// also because Markdown All in One is default formatter
+		"source.fixAll.markdownlint": "never",
+		"source.fixAll.sortJSON": "never"
+	},
+	"editor.comments.ignoreEmptyLines": false,
+	// PSUseConsistentIndentation
+	"editor.detectIndentation": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.insertSpaces": false,
+	"editor.largeFileOptimizations": false,
+	"editor.minimap.enabled": true,
+	"editor.minimap.showSlider": "always",
+	// https://code.visualstudio.com/docs/editor/intellisense
+	"editor.quickSuggestions": {
+		"comments": true,
+		"other": true,
+		"strings": true
+	},
+	"editor.renderControlCharacters": false,
+	"editor.renderWhitespace": "selection",
+	"editor.rulers": [
+		{
+			"color": "#4063ff",
+			// Recommended line width
+			"column": 100
+		},
+		{
+			"color": "#ff0000",
+			// Maximum line width
+			"column": 120
+		}
+	],
+	"editor.scrollbar.horizontalScrollbarSize": 20,
+	"editor.scrollBeyondLastLine": true,
+	// Work around ugly syntax highlighting:
+	// ISSUE: https://github.com/PowerShell/vscode-powershell/issues/3221
+	"editor.semanticHighlighting.enabled": false,
+	"editor.snippetSuggestions": "inline",
+	"editor.tabSize": 4,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": []
+	},
+	"editor.trimAutoWhitespace": true,
+	"editor.wordWrap": "off",
+	// VSCode: explorer
+	"explorer.autoReveal": "focusNoScroll",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	// VSCode: Workspace files
+	"files.associations": {
+		"*.config": "ssh_config",
+		"LICENSE": "plaintext"
+	},
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 500,
+	"files.encoding": "utf8",
+	"files.eol": "\n",
+	// Files and directories which to exclude from VSCode explorer
+	"files.exclude": {
+		"**/.git": true
+	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	// VSCode: problems
+	"problems.showCurrentInStatus": true,
+	// VSCode: search
+	"search.exclude": {
+		"**/.git": true
+	},
+	// VSCode: outline
+	"outline.collapseItems": "alwaysCollapse",
+	// VSCode: workbench
+	// TODO: What is a new option, needed for autogenrated files
+	// seems to be user only option?
+	"workbench.action.files.saveWithoutFormatting": [],
+	"workbench.colorCustomizations": {
+		"tab.activeBorder": "#ff0000"
+	},
+	"workbench.editor.defaultBinaryEditor": "",
+	"workbench.editor.enablePreviewFromCodeNavigation": true,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.wrapTabs": true,
+	"workbench.iconTheme": "vs-seti",
+	"workbench.sideBar.location": "left",
+	"workbench.startupEditor": "none",
+	// Extension: Bookmarks
+	"bookmarks.keepBookmarksOnLineDelete": false,
+	"bookmarks.label.suggestion": "dontUse",
+	"bookmarks.multicursor.toggleMode": "allLinesAtOnce",
+	"bookmarks.navigateThroughAllFiles": true,
+	"bookmarks.saveBookmarksInProject": true,
+	"bookmarks.sideBar.expanded": true,
+	"bookmarks.wrapNavigation": true,
+	// Extension: Code Spell Checker
+	// CAUTION: Settings for cSpell defined in settings.json are not recognized in cspell.json
+	"cSpell.autoFormatConfigFile": false,
+	"cSpell.blockCheckingWhenAverageChunkSizeGreaterThan": 120,
+	"cSpell.blockCheckingWhenLineLengthGreaterThan": 10000,
+	"cSpell.blockCheckingWhenTextChunkSizeGreaterThan": 500,
+	"cSpell.checkLimit": 500,
+	"cSpell.checkOnlyEnabledFileTypes": true,
+	"cSpell.customDictionaries": {
+		"dic.foul": {
+			"description": "Spellcheck rude words which to mark as forbidden",
+			"name": "foul",
+			"path": "${workspaceRoot}/foul/foul.dic",
+			"scope": "user",
+			"addWords": false
+		},
+		"dic.computer-acronyms": {
+			"name": "computer-acronyms",
+			"path": "${workspaceRoot}/computer-acronyms.dic",
+			"description": "Bash dictionary for cspell",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.computer": {
+			"name": "computer",
+			"path": "${workspaceRoot}/computer.dic",
+			"description": "Software terms dictionary for cspell - computing acronyms",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.development": {
+			"name": "development",
+			"path": "${workspaceRoot}/development.dic",
+			"description": "C/C++ Dictionary for cspell",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.filetypes": {
+			"name": "filetypes",
+			"path": "${workspaceRoot}/filetypes.dic",
+			"description": "Filetypes dictionary for cspell",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.networking": {
+			"name": "networking",
+			"path": "${workspaceRoot}/networking.dic",
+			"description": "i86 Mnemonics dictionary for cspell",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.nftables": {
+			"name": "nftables",
+			"path": "${workspaceRoot}/nftables.dic",
+			"description": "Software terms dictionary for cspell - networking terms",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.protocols": {
+			"name": "protocols",
+			"path": "${workspaceRoot}/protocols.dic",
+			"description": "PowerShell Keyword Dictionary",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.software-names": {
+			"name": "software-names",
+			"path": "${workspaceRoot}/software-names.dic",
+			"description": "Shell Script dictionary for cspell",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.software-parameters": {
+			"name": "software-parameters",
+			"path": "${workspaceRoot}/software-parameters.dic",
+			"description": "Software terms dictionary for cspell",
+			"scope": "user",
+			"addWords": true
+		},
+		// Enable\disable specific dictionaries:
+		// Read-only
+		"foul": true,
+		// Read-write
+		"computer-acronyms": true,
+		"computer": true,
+		"development": true,
+		"filetypes": true,
+		"networking": true,
+		"nftables": true,
+		"protocols": true,
+		"software-names": true,
+		"software-parameters": true,
+	},
+	// TODO: see if desired
+	"cSpell.diagnosticLevel": "Information",
+	"cSpell.enabled": true,
+	"cSpell.showAutocompleteSuggestions": true,
+	// CAUTION: Needs to be set in user settings
+	// "cSpell.showCommandsInEditorContextMenu": true,
+	// "cSpell.showStatus": true,
+	// "cSpell.showStatusAlignment": "Right",
+	// "cSpell.showSuggestionsLinkInEditorContextMenu": true,
+	// "cSpell.spellCheckDelayMs": 50,
+	"cSpell.spellCheckOnlyWorkspaceFiles": true,
+	"cSpell.suggestionMenuType": "quickPick",
+	// Extension: Filter Line
+	// CAUTION: Needs to be set in user settings
+	// "filter-line.historySize": 20,
+	// Extension: Highlight Bad Chars
+	"highlight-bad-chars.additionalUnicodeChars": [
+		// https://www.vertex42.com/ExcelTips/unicode-symbols.html
+	],
+	"highlight-bad-chars.asciiOnly": true,
+	"highlight-bad-chars.badCharDecorationStyle": {
+		"cursor": "square",
+		"backgroundColor": "rgba(255,0,0,0.3)",
+		"borderWidth": "1px",
+		"borderStyle": "solid",
+		"borderColor": "rgba(255,0,0,0.6)"
+	},
+	// Extension: Markdown All in One
+	"markdown.extension.bold.indicator": "**",
+	"markdown.extension.completion.respectVscodeSearchExclude": false,
+	"markdown.extension.completion.root": "${workspaceFolder}",
+	"markdown.extension.italic.indicator": "*",
+	"markdown.extension.list.indentationSize": "inherit",
+	"markdown.extension.math.enabled": true,
+	"markdown.extension.orderedList.autoRenumber": true,
+	// NOTE: This must be "ordered" in order for autoRenumber to work
+	"markdown.extension.orderedList.marker": "ordered",
+	"markdown.extension.preview.autoShowPreviewToSide": false,
+	"markdown.extension.print.absoluteImgPath": true,
+	"markdown.extension.print.imgToBase64": false,
+	"markdown.extension.print.includeVscodeStylesheets": true,
+	"markdown.extension.print.onFileSave": false,
+	"markdown.extension.print.theme": "light",
+	"markdown.extension.print.validateUrls": true,
+	"markdown.extension.syntax.decorationFileSizeLimit": 50000,
+	"markdown.extension.tableFormatter.delimiterRowNoPadding": false,
+	"markdown.extension.tableFormatter.enabled": true,
+	"markdown.extension.tableFormatter.normalizeIndentation": true,
+	"markdown.extension.toc.levels": "1..6",
+	"markdown.extension.toc.orderedList": false,
+	"markdown.extension.toc.plaintext": false,
+	"markdown.extension.toc.slugifyMode": "github",
+	"markdown.extension.toc.unorderedList.marker": "-",
+	"markdown.extension.toc.updateOnSave": true,
+	// Extension markdownlint
+	// NOTE: There is markdown.jsonc in Modules directory which disables some rules,
+	// consider enabling them temporary to find issues.
+	// Some false positives are suppressed per file with HTML comments
+	"markdownlint.config": {
+		"default": true,
+		"line-length": {
+			"line_length": 120,
+			"heading_line_length": 120,
+			"code_block_line_length": 120,
+			"tables": false
+		}
+	},
+	"markdownlint.run": "onType",
+	// Extension: Select Line Status Bar
+	"selectline.alignment": "left",
+	"selectline.statusbarPriority": 100,
+	// Extension: Sort Lines
+	"sortLines.filterBlankLines": false,
+	"sortLines.sortEntireFile": true,
+	// Extension: Todo Tree
+	// NOTE: For markdown settings https://github.com/Gruntfuggly/todo-tree#markdown-support
+	"todo-tree.filtering.includeHiddenFiles": false,
+	"todo-tree.filtering.useBuiltInExcludes": "file and search excludes",
+	"todo-tree.general.debug": false,
+	"todo-tree.general.enableFileWatcher": false,
+	"todo-tree.general.revealBehaviour": "start of todo",
+	"todo-tree.general.rootFolder": "${workspaceFolder}",
+	"todo-tree.general.showActivityBarBadge": false,
+	"todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+	"todo-tree.general.statusBar": "none",
+	"todo-tree.general.statusBarClickBehaviour": "reveal",
+	"todo-tree.general.tags": [
+		"HACK",
+		"TODO",
+		"NOTE",
+		"INFO",
+		"BUG",
+		"FIX",
+		"MSDN",
+		"DOCS",
+		"CAUTION",
+		"ISSUE",
+		"cSpell",
+		"[ ]",
+		"[x]"
+	],
+	"todo-tree.general.tagGroups": {
+		"NOTE": [
+			"NOTE",
+			// Important information
+			"INFO"
+		],
+		"BUG": [
+			"BUG",
+			// A bug that needs fixing
+			"FIX"
+		],
+		"MSDN": [
+			"MSDN",
+			// Citing non Microsoft documentation
+			"DOCS"
+		]
+	},
+	"todo-tree.highlights.customHighlight": {
+		// Hard to resolve or it requires huge rework
+		"HACK": {
+			// used to set a different icon in the tree view
+			// consider: info, bookmark, markdown, alert, bug, question, mark-github,
+			// issue-opened, check-circle, checklist, report, beaker
+			// icons and names: https://primer.style/octicons
+			"icon": "zap",
+			// used to control how much is highlighted in the editor. Valid values are:
+			// tag - highlights just the tag
+			// text - highlights the tag and any text after the tag
+			// tag-and-comment - highlights the comment characters (or the start of the match) and the tag
+			// text-and-comment - highlights the comment characters (or the start of the match), the tag and the text after the tag
+			// line - highlights the entire line containing the tag
+			// whole-line - highlights the entire line containing the tag to the full width of the editor
+			"type": "tag",
+			// used to set the foreground colour of the highlight in the editor and the marker in the ruler
+			// Foreground and background can be: "red", "green", "blue", "yellow", "magenta", "cyan", "grey", "white" or "black"
+			// see https://www.w3schools.com/colors/default.asp
+			// Useful colors:
+			// #FDA50F", // Fire
+			// #008b8b", // DarkCyan
+			// #FFF200", // Bright Yellow
+			// #c0c0c0", // Silver
+			// #0d3dcf", // Custom blue
+			// #fff8dc", // Cornsilk
+			"foreground": "#ffffff",
+			// used to set the background colour of the highlight in the editor.
+			"background": "#ff0000",
+			// Percentage value used with the background color.
+			// 100% will produce an opaque background
+			"opacity": 70,
+			// used to set the colour of the icon in the tree
+			"iconColour": "#ff0000"
+			// used to hide tags from the tree, but still highlight in files
+			// "hideFromTree": false,
+			// set to true to show the icon in the editor gutter
+			// "gutterIcon": true,
+			// prevents the tag from being included in the status bar counts
+			// "hideFromStatusBar": false
+			// fontWeight, fontStyle, textDecoration - can be used to style the highlight with standard CSS values.
+		},
+		// Needs additional work or update
+		"TODO": {
+			"icon": "tools",
+			"type": "tag",
+			"foreground": "#000000",
+			"background": "#ffffff",
+			"iconColour": "#ffffff",
+			"opacity": 90
+		},
+		// Important comment
+		"NOTE": {
+			"icon": "info",
+			"type": "tag",
+			"foreground": "#ffffff",
+			"background": "#2ec920", // Custom green
+			"iconColour": "#228B22", // ForestGreen
+			"opacity": 40
+		},
+		// Known bug, need to fix
+		"BUG": {
+			"icon": "bug",
+			"type": "tag",
+			"foreground": "#ffffff",
+			"background": "#ff0000",
+			"iconColour": "#ff0000",
+			"opacity": 70
+		},
+		// Citing Microsoft documentation
+		"MSDN": {
+			"icon": "beaker",
+			"type": "tag",
+			"foreground": "#fff8dc", // Cornsilk
+			"background": "#00bfff", // DeepSkyBlue
+			"iconColour": "#00bfff", // DeepSkyBlue
+			"opacity": 65
+		},
+		// Warning to developer
+		"CAUTION": {
+			"icon": "alert",
+			"type": "tag",
+			"foreground": "#ffffff",
+			"background": "#FDA50F", // Fire
+			"iconColour": "#FDA50F", // Fire
+			"opacity": 60
+		},
+		// Citing GitHub issue or a link to the issue
+		"ISSUE": {
+			"icon": "mark-github",
+			"type": "tag",
+			"foreground": "#000000",
+			"background": "#ffffff",
+			"iconColour": "#ffffff",
+			"opacity": 90
+		},
+		// cSpell checker command
+		"cSpell": {
+			"icon": "info",
+			"type": "text",
+			"foreground": "#ffffff",
+			"background": "#2ec920", // Custom green
+			"iconColour": "#2ec920", // Custom green
+			"opacity": 40,
+			"fontStyle": "italic",
+			"hideFromTree": true
+		},
+		// Unchecked box
+		"[ ]": {
+			"icon": "markdown",
+			"type": "tag",
+			"foreground": "#000000",
+			"background": "#ffffff",
+			"iconColour": "#ffffff",
+			"opacity": 90,
+			"hideFromTree": true
+		},
+		// Checked box
+		"[x]": {
+			"icon": "markdown",
+			"type": "tag",
+			"foreground": "#ffffff",
+			"background": "#2ec920", // Custom green
+			"iconColour": "#2ec920", // Custom green
+			"opacity": 40,
+			"hideFromTree": true
+		}
+	},
+	"todo-tree.highlights.enabled": true,
+	"todo-tree.highlights.highlightDelay": 500,
+	"todo-tree.highlights.useColourScheme": false,
+	"todo-tree.regex.enableMultiLine": false,
+	// NOTE: The default regex will be updated to reflect these changes at some point in the future.
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"todo-tree.regex.regexCaseSensitive": true,
+	"todo-tree.tree.autoRefresh": true,
+	"todo-tree.tree.buttons.expand": true,
+	"todo-tree.tree.buttons.export": true,
+	"todo-tree.tree.buttons.filter": true,
+	"todo-tree.tree.buttons.groupBySubTag": false,
+	"todo-tree.tree.buttons.groupByTag": true,
+	"todo-tree.tree.buttons.refresh": true,
+	"todo-tree.tree.buttons.reveal": true,
+	"todo-tree.tree.buttons.scanMode": true,
+	"todo-tree.tree.buttons.viewStyle": true,
+	"todo-tree.tree.disableCompactFolders": false,
+	"todo-tree.tree.expanded": false,
+	"todo-tree.tree.filterCaseSensitive": false,
+	"todo-tree.tree.flat": false,
+	"todo-tree.tree.groupedBySubTag": false,
+	"todo-tree.tree.groupedByTag": false,
+	"todo-tree.tree.hideIconsWhenGroupedByTag": false,
+	"todo-tree.tree.hideTreeWhenEmpty": false,
+	"todo-tree.tree.scanAtStartup": true,
+	"todo-tree.tree.scanMode": "workspace",
+	"todo-tree.tree.showBadges": true,
+	"todo-tree.tree.showCountsInTree": true,
+	"todo-tree.tree.showCurrentScanMode": true,
+	"todo-tree.tree.sort": true,
+	"todo-tree.tree.sortTagsOnlyViewAlphabetically": false,
+	"todo-tree.tree.tagsOnly": false,
+	"todo-tree.tree.trackFile": true,
+	// Extension: Toggle Quotes
+	"togglequotes.chars": [
+		"'",
+		"\""
+	],
+	// Extension: Trailing Spaces
+	// CAUTION: Enabling this causes issues writing code according to indentation rules
+	"trailing-spaces.trimOnSave": false
+}

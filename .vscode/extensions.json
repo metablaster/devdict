@@ -1,0 +1,40 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		// Bookmarks
+		"alefragnani.bookmarks",
+		// Code Spell Checker
+		"streetsidesoftware.code-spell-checker",
+		// Hightlight Bad Chars
+		"wengerk.highlight-bad-chars",
+		// Markdown All in One
+		"yzhang.markdown-all-in-one",
+		// markdownlint
+		"davidanson.vscode-markdownlint",
+		// Select Line Status Bar
+		"tomoki1207.selectline-statusbar",
+		// Sort Lines
+		"Tyriar.sort-lines",
+		// Todo Tree
+		"gruntfuggly.todo-tree",
+		// Toggle Quotes
+		"BriteSnow.vscode-toggle-quotes",
+		// Trailing Spaces
+		"shardulm94.trailing-spaces"
+	],
+	// List of extensions which should not be recommended for users of this workspace.
+	// Following extensions either cause issues with some recommended extensions or there is
+	// a better alternative in recommendations above.
+	"unwantedRecommendations": [
+		// Git History
+		"donjayamanne.githistory",
+		// Log Viewer
+		"berublan.vscode-log-viewer",
+		// Unicode-Substitutions
+		"glenbuktenica.unicode-substitutions",
+		// XML Tools
+		"DotJoshJohnson.xml"
+	]
+}
