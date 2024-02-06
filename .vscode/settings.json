@@ -140,69 +140,69 @@
 		"dic.foul": {
 			"description": "Spellcheck rude words which to mark as forbidden",
 			"name": "foul",
-			"path": "${workspaceRoot}/foul/foul.dic",
+			"path": "~/dev/GitHub/devdict/foul/foul.dic",
 			"scope": "user",
 			"addWords": false
 		},
 		"dic.computer-acronyms": {
 			"name": "computer-acronyms",
-			"path": "${workspaceRoot}/computer-acronyms.dic",
+			"path": "~/dev/GitHub/devdict/computer-acronyms.dic",
 			"description": "Bash dictionary for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.computer": {
 			"name": "computer",
-			"path": "${workspaceRoot}/computer.dic",
+			"path": "~/dev/GitHub/devdict/computer.dic",
 			"description": "Software terms dictionary for cspell - computing acronyms",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.development": {
 			"name": "development",
-			"path": "${workspaceRoot}/development.dic",
+			"path": "~/dev/GitHub/devdict/development.dic",
 			"description": "C/C++ Dictionary for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.filetypes": {
 			"name": "filetypes",
-			"path": "${workspaceRoot}/filetypes.dic",
+			"path": "~/dev/GitHub/devdict/filetypes.dic",
 			"description": "Filetypes dictionary for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.networking": {
 			"name": "networking",
-			"path": "${workspaceRoot}/networking.dic",
+			"path": "~/dev/GitHub/devdict/networking.dic",
 			"description": "i86 Mnemonics dictionary for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.nftables": {
 			"name": "nftables",
-			"path": "${workspaceRoot}/nftables.dic",
+			"path": "~/dev/GitHub/devdict/nftables.dic",
 			"description": "Software terms dictionary for cspell - networking terms",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.protocols": {
 			"name": "protocols",
-			"path": "${workspaceRoot}/protocols.dic",
+			"path": "~/dev/GitHub/devdict/protocols.dic",
 			"description": "PowerShell Keyword Dictionary",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.software-names": {
 			"name": "software-names",
-			"path": "${workspaceRoot}/software-names.dic",
+			"path": "~/dev/GitHub/devdict/software-names.dic",
 			"description": "Shell Script dictionary for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.software-parameters": {
 			"name": "software-parameters",
-			"path": "${workspaceRoot}/software-parameters.dic",
+			"path": "~/dev/GitHub/devdict/software-parameters.dic",
 			"description": "Software terms dictionary for cspell",
 			"scope": "user",
 			"addWords": true
