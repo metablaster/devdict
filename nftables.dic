@@ -1,4 +1,10 @@
-
 #
-# Dictionary of nftables firewall keywords and terms
-#
+# Dictionary of nftables firewall keywords
+dnat
+iifname
+inet
+nftables
+oifname
+saddr
+snat
+srcnat

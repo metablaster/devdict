@@ -1,6 +1,9 @@
-
 #
-# Dictionary of computer networking terms excluding:
-#
-# - Network protocol names and acronyms
-#
+# Dictionary of computer networking terms and acronyms (not protocols)
+NSEC
+nxdomain
+RRSIG
+RRSIGs
+servfail
+untracked
+EDNS

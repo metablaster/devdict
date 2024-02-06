@@ -1,6 +1,6 @@
-
 #
-# Dictionary of computer acronyms excluding:
-#
-# - Network protocol acronyms
-#
+# Dictionary of OS agnostic computer acronyms (not OS specific)
+CPUID
+uefi
+XHCI
+EIST

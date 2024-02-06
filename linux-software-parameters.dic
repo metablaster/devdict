@@ -1,0 +1,11 @@
+#
+# Dictionary of program, services (daemons) and driver (modules) parameters (options) on linux system
+gcow
+missingok
+noolddir
+notifempty
+onlink
+pflash
+proto
+urandom
+virtio
