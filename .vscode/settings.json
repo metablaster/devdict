@@ -138,72 +138,72 @@
 	"cSpell.checkOnlyEnabledFileTypes": true,
 	"cSpell.customDictionaries": {
 		"dic.foul": {
-			"description": "Spellcheck rude words which to mark as forbidden",
 			"name": "foul",
 			"path": "~/dev/GitHub/devdict/foul/foul.dic",
+			"description": "Dictionary of rude words which to flag as forbidden for cspell",
 			"scope": "user",
 			"addWords": false
 		},
 		"dic.computer-acronyms": {
 			"name": "computer-acronyms",
 			"path": "~/dev/GitHub/devdict/computer-acronyms.dic",
-			"description": "Bash dictionary for cspell",
+			"description": "Dictionary of computer acronyms for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.computer": {
 			"name": "computer",
 			"path": "~/dev/GitHub/devdict/computer.dic",
-			"description": "Software terms dictionary for cspell - computing acronyms",
+			"description": "Dictionary of computer terms for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.development": {
 			"name": "development",
 			"path": "~/dev/GitHub/devdict/development.dic",
-			"description": "C/C++ Dictionary for cspell",
+			"description": "Dictionary of software development terms for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.filetypes": {
 			"name": "filetypes",
 			"path": "~/dev/GitHub/devdict/filetypes.dic",
-			"description": "Filetypes dictionary for cspell",
+			"description": "Dictionary of file types and extensions for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.networking": {
 			"name": "networking",
 			"path": "~/dev/GitHub/devdict/networking.dic",
-			"description": "i86 Mnemonics dictionary for cspell",
+			"description": "Dictionary of computer networking terms for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.nftables": {
 			"name": "nftables",
 			"path": "~/dev/GitHub/devdict/nftables.dic",
-			"description": "Software terms dictionary for cspell - networking terms",
+			"description": "Dictionary of nftables firewall keywords for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.protocols": {
 			"name": "protocols",
 			"path": "~/dev/GitHub/devdict/protocols.dic",
-			"description": "PowerShell Keyword Dictionary",
+			"description": "Dictionary of computer protocol names and acronyms for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.software-names": {
 			"name": "software-names",
 			"path": "~/dev/GitHub/devdict/software-names.dic",
-			"description": "Shell Script dictionary for cspell",
+			"description": "Dictionary of program, services and driver names for cspell",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.software-parameters": {
 			"name": "software-parameters",
 			"path": "~/dev/GitHub/devdict/software-parameters.dic",
-			"description": "Software terms dictionary for cspell",
+			"description": "Dictionary of program, services and driver parameters (command line options) for cspell",
 			"scope": "user",
 			"addWords": true
 		},
@@ -219,7 +219,7 @@
 		"nftables": true,
 		"protocols": true,
 		"software-names": true,
-		"software-parameters": true,
+		"software-parameters": true
 	},
 	// TODO: see if desired
 	"cSpell.diagnosticLevel": "Information",
