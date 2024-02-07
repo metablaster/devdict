@@ -8,8 +8,7 @@
 	"enableFiletypes": [
 		"json",
 		"jsonc",
-		"ignore",
-		"properties" // gitattributes, *.conf
+		"ignore"
 	],
 	// BUG: Does not work, but ${workspaceFolder} is the default anyway
 	//"globRoot": "${workspaceFolder}",

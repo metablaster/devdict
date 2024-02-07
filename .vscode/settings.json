@@ -83,7 +83,7 @@
 	"explorer.confirmDragAndDrop": false,
 	// VSCode: Workspace files
 	"files.associations": {
-		"*.config": "ssh_config",
+		"*.config": "properties",
 		"LICENSE": "plaintext"
 	},
 	"files.autoSave": "afterDelay",
@@ -106,9 +106,6 @@
 	// VSCode: outline
 	"outline.collapseItems": "alwaysCollapse",
 	// VSCode: workbench
-	// TODO: What is a new option, needed for autogenrated files
-	// seems to be user only option?
-	"workbench.action.files.saveWithoutFormatting": [],
 	"workbench.colorCustomizations": {
 		"tab.activeBorder": "#ff0000"
 	},
@@ -129,7 +126,7 @@
 	"bookmarks.sideBar.expanded": true,
 	"bookmarks.wrapNavigation": true,
 	// Extension: Code Spell Checker
-	// CAUTION: Settings for cSpell defined in settings.json are not recognized in cspell.json
+	// WARN: Settings for cSpell defined in settings.json are not recognized in cspell.json
 	"cSpell.autoFormatConfigFile": false,
 	"cSpell.blockCheckingWhenAverageChunkSizeGreaterThan": 120,
 	"cSpell.blockCheckingWhenLineLengthGreaterThan": 10000,
@@ -281,7 +278,7 @@
 	"cSpell.diagnosticLevel": "Information",
 	"cSpell.enabled": true,
 	"cSpell.showAutocompleteSuggestions": true,
-	// CAUTION: Needs to be set in user settings
+	// WARN: Needs to be set in user settings
 	// "cSpell.showCommandsInEditorContextMenu": true,
 	// "cSpell.showStatus": true,
 	// "cSpell.showStatusAlignment": "Right",
@@ -290,7 +287,7 @@
 	"cSpell.spellCheckOnlyWorkspaceFiles": true,
 	"cSpell.suggestionMenuType": "quickPick",
 	// Extension: Filter Line
-	// CAUTION: Needs to be set in user settings
+	// WARN: Needs to be set in user settings
 	// "filter-line.historySize": 20,
 	// Extension: Highlight Bad Chars
 	"highlight-bad-chars.additionalUnicodeChars": [
@@ -356,7 +353,6 @@
 	"todo-tree.filtering.includeHiddenFiles": false,
 	"todo-tree.filtering.useBuiltInExcludes": "file and search excludes",
 	"todo-tree.general.debug": false,
-	"todo-tree.general.enableFileWatcher": false,
 	"todo-tree.general.revealBehaviour": "start of todo",
 	"todo-tree.general.rootFolder": "${workspaceFolder}",
 	"todo-tree.general.showActivityBarBadge": false,
@@ -372,7 +368,7 @@
 		"FIX",
 		"MSDN",
 		"DOCS",
-		"CAUTION",
+		"WARN",
 		"ISSUE",
 		"cSpell",
 		"[ ]",
@@ -474,7 +470,7 @@
 			"opacity": 65
 		},
 		// Warning to developer
-		"CAUTION": {
+		"WARN": {
 			"icon": "alert",
 			"type": "tag",
 			"foreground": "#ffffff",
@@ -563,6 +559,6 @@
 		"\""
 	],
 	// Extension: Trailing Spaces
-	// CAUTION: Enabling this causes issues writing code according to indentation rules
+	// WARN: Enabling this causes issues writing code according to indentation rules
 	"trailing-spaces.trimOnSave": false
 }
