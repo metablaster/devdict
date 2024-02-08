@@ -1,4 +1,3 @@
-#
 # Dictionary of program, services (daemons) and driver (modules) names on linux system
 blkid
 crond

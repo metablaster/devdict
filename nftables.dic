@@ -1,8 +1,10 @@
-#
 # Dictionary of nftables firewall keywords
+daddr
 dnat
+dport
 iifname
 inet
+nexthdr
 nftables
 oifname
 saddr

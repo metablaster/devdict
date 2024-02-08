@@ -1,6 +1,6 @@
-#
 # Dictionary of OS agnostic computer acronyms (not OS specific)
 CPUID
+DTCP
+EIST
 uefi
 XHCI
-EIST
