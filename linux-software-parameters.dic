@@ -1,4 +1,5 @@
 # Dictionary of program, services (daemons) and driver (modules) parameters (options) on linux system
+dearmor
 gcow
 missingok
 noolddir
