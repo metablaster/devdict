@@ -20,8 +20,12 @@
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
 	},
 	// VSCode: audio cues
-	"audioCues.lineHasError": "off",
-	"audioCues.lineHasWarning": "off",
+	"accessibility.signals.lineHasError": {
+		"sound": "off"
+	},
+	"accessibility.signals.lineHasWarning": {
+		"sound": "off"
+	},
 	// VSCode: diffeditor
 	"diffEditor.ignoreTrimWhitespace": false,
 	// NOTE: "inherit" does not work for all file formats

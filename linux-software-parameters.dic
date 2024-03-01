@@ -7,5 +7,6 @@ notifempty
 onlink
 pflash
 proto
+reloadagent
 urandom
 virtio
