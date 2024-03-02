@@ -1,9 +1,11 @@
 # Dictionary of program, services (daemons) and driver (modules) names on linux system
 blkid
+chgrp
 crond
 dpkg
 efibootmgr
 fdisk
+fstrim
 hdparm
 hwinfo
 inxi
@@ -11,7 +13,11 @@ journalctl
 Klassy
 lshw
 lsusb
+LUKS
 Lutris
+lvdisplay
+lvextend
+lvreduce
 mokutil
 nmcli
 nmtui
@@ -21,8 +27,13 @@ pkexec
 qbittorrent
 rmmod
 rsyslog
+setfacl
 sudo
+swapon
 systemctl
 unrar
+vgchange
+vgscan
 whereis
 xclip
+mklost+found
