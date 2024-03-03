@@ -1,13 +1,26 @@
 # Dictionary of program, services (daemons) and driver (modules) parameters (options) on linux system
+alignc
+alignr
 dearmor
+diskiograph
+downspeedf
+execi
 gcow
+gpuutil
+memperc
 missingok
 mknodes
+noheader
 noolddir
 notifempty
 onlink
 pflash
 proto
 reloadagent
+swapperc
+totalup
+upspeedf
 urandom
 virtio
+voffset
+xftalpha

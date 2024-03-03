@@ -18,11 +18,14 @@ Lutris
 lvdisplay
 lvextend
 lvreduce
+mklost+found
 mokutil
 nmcli
 nmtui
 nslookup
 OVMF
+pgrep
+pidof
 pkexec
 qbittorrent
 rmmod
@@ -36,4 +39,3 @@ vgchange
 vgscan
 whereis
 xclip
-mklost+found
