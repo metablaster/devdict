@@ -10,9 +10,13 @@ gpuutil
 memperc
 missingok
 mknodes
+noauto
+noexec
+nofail
 noheader
 noolddir
 notifempty
+nouser
 onlink
 pflash
 proto

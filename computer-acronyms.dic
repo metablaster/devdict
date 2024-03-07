@@ -1,9 +1,14 @@
 # Dictionary of OS agnostic computer acronyms (not OS specific)
 argb
+btrfs
 CPUID
+diskio
 DTCP
 EIST
 FTPM
+squashfs
+sysfs
+tmpfs
 uefi
+vfat
 XHCI
-diskio
