@@ -3,5 +3,6 @@ distro
 distros
 hwmon
 inputrc
+nsswitch
 resolv
 sbin

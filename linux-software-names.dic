@@ -7,6 +7,7 @@ dumpe2fs
 e2mmpstatus
 efibootmgr
 fdisk
+fgrep
 fstrim
 hdparm
 hwinfo
@@ -46,6 +47,7 @@ setfacl
 sudo
 swapon
 systemctl
+timesyncd
 unrar
 vgchange
 vgdisplay
