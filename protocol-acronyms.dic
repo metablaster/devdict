@@ -4,9 +4,12 @@ DVMRP
 EIGRP
 igmp
 IGRS
+imap
+imaps
 ISATAP
 OSCP
 OSPFIGP
 QUIC
+smtps
 SSDP
 VRRP
