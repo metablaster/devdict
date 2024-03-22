@@ -9,6 +9,7 @@ efibootmgr
 fdisk
 fgrep
 fstrim
+fusermount
 hdparm
 hwinfo
 inxi
