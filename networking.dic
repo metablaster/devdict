@@ -1,8 +1,10 @@
 # Dictionary of computer networking terms and acronyms (not protocols)
 EDNS
+noqueue
 NSEC
 nxdomain
 pdelay
+qdisc
 RRSIG
 RRSIGs
 servfail
