@@ -4,5 +4,7 @@ distros
 hwmon
 inputrc
 nsswitch
+popd
+pushd
 resolv
 sbin

@@ -7,6 +7,7 @@ downspeedf
 execi
 gcow
 gpuutil
+ifname
 memperc
 missingok
 mknodes
@@ -23,6 +24,7 @@ proto
 reloadagent
 swapperc
 totalup
+unspec
 upspeedf
 urandom
 virtio
