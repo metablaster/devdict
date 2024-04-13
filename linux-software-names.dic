@@ -12,6 +12,7 @@ filezilla
 fstrim
 fusermount
 hdparm
+hping
 hwinfo
 inxi
 journalctl
@@ -22,6 +23,7 @@ kfind
 Klassy
 krdc
 libvirtd
+lnav
 lshw
 lsusb
 LUKS
@@ -37,9 +39,12 @@ mokutil
 nmap
 nmcli
 nmtui
+nping
 nslookup
+openvswitch-switch
 osslsigncode
 OVMF
+openvswitch
 pgrep
 pidof
 pkexec
@@ -60,6 +65,7 @@ swapon
 systemctl
 timesyncd
 unrar
+uuidgen
 vgchange
 vgdisplay
 vgextend
@@ -67,6 +73,7 @@ vgreduce
 vgremove
 vgscan
 virsh
+ovs-vsctl
 whereis
 winehq
 xclip

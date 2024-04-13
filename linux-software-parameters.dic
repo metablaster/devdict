@@ -7,6 +7,7 @@ downspeedf
 execi
 gcow
 gpuutil
+htable
 ifname
 memperc
 missingok
@@ -22,6 +23,7 @@ onlink
 pflash
 proto
 reloadagent
+srcip
 swapperc
 totalup
 unspec
