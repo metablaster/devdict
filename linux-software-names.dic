@@ -36,15 +36,18 @@ lvremove
 lvscan
 mklost+found
 mokutil
+networkctl
+networkd
 nmap
 nmcli
 nmtui
 nping
 nslookup
+openvswitch
 openvswitch-switch
 osslsigncode
 OVMF
-openvswitch
+ovs-vsctl
 pgrep
 pidof
 pkexec
@@ -73,7 +76,6 @@ vgreduce
 vgremove
 vgscan
 virsh
-ovs-vsctl
 whereis
 winehq
 xclip
