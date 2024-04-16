@@ -59,13 +59,16 @@ pvresize
 pvscan
 qbittorrent
 ratbagd
+rgrep
 rmmod
 rsyslog
 setfacl
+smartctl
 spice-vdagent
 sudo
 swapon
 systemctl
+timedatectl
 timesyncd
 unrar
 uuidgen
