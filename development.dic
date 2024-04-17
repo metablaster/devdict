@@ -3,3 +3,4 @@ bufsize
 ctinfo
 libglvnd
 selectline
+strftime

@@ -8,3 +8,4 @@ popd
 pushd
 resolv
 sbin
+Xorg
