@@ -11,6 +11,8 @@ fgrep
 filezilla
 fstrim
 fusermount
+getent
+getfacl
 hdparm
 hping
 hwinfo
@@ -70,6 +72,7 @@ swapon
 systemctl
 timedatectl
 timesyncd
+udevadm
 unrar
 uuidgen
 vgchange
