@@ -8,6 +8,7 @@ execi
 gcow
 gpuutil
 htable
+iface
 ifname
 memperc
 missingok
@@ -33,3 +34,4 @@ virtio
 virtiofs
 voffset
 xftalpha
+fs_passno

@@ -10,6 +10,7 @@ fdisk
 fgrep
 filezilla
 fstrim
+ftpd
 fusermount
 getent
 getfacl
@@ -24,6 +25,7 @@ kdeconnectd
 kfind
 Klassy
 krdc
+lastb
 libvirtd
 lnav
 lshw
@@ -69,6 +71,7 @@ smartctl
 spice-vdagent
 sudo
 swapon
+syslogd
 systemctl
 timedatectl
 timesyncd
@@ -86,3 +89,5 @@ whereis
 winehq
 xclip
 xvkbd
+zcat
+zgrep

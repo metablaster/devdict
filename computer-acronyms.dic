@@ -1,5 +1,6 @@
 # Dictionary of OS agnostic computer acronyms (not OS specific)
 argb
+armhf
 btrfs
 CPUID
 diskio
@@ -11,4 +12,6 @@ sysfs
 tmpfs
 uefi
 vfat
+virt
+vsync
 XHCI
