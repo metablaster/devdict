@@ -1,4 +1,5 @@
 # Dictionary of nftables firewall keywords
+addrtype
 daddr
 dnat
 dport

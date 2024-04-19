@@ -13,7 +13,8 @@
 	// BUG: Does not work, but ${workspaceFolder} is the default anyway
 	//"globRoot": "${workspaceFolder}",
 	"ignorePaths": [
-		"/.git"
+		"/.git",
+		"/Foul/foul.dic"
 	],
 	"noConfigSearch": false,
 	// "spellCheckOnlyWorkspaceFiles" (in settings)
