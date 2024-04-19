@@ -88,3 +88,6 @@ xclip
 xvkbd
 zcat
 zgrep
+nvidia-xconfig
+virt-manager
+grub-mkconfig

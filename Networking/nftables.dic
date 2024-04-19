@@ -12,3 +12,4 @@ snat
 srcnat
 iiftype
 oiftype
+icmpv6

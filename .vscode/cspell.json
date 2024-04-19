@@ -48,7 +48,9 @@
 	"suggestionNumChanges": 3,
 	// TODO: test with true
 	"validateDirectives": false,
-	"words": [],
+	"words": [
+		"devdict"
+	],
 	"flagWords": [
 		// Defined in ${userHome}/dev/cSpell/foul/foul.dic
 	]

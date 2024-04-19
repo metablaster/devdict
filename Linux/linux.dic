@@ -8,3 +8,6 @@ resolv
 sbin
 Xorg
 vkbasalt
+btmp
+wtmp
+libc6
