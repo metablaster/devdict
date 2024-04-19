@@ -1,0 +1,5 @@
+# OS agnostic dictionary of program, services (daemons) and driver (modules) names
+popd
+pushd
+pwsafe
+qbittorrent

@@ -1,4 +1,4 @@
-# Dictionary of program, services (daemons) and driver (modules) names on linux system
+# Dictionary of program, services (daemons) and driver (modules) names on Linux system
 blkid
 chgrp
 crond
@@ -30,7 +30,6 @@ libvirtd
 lnav
 lshw
 lsusb
-LUKS
 Lutris
 lvchange
 lvdisplay
@@ -50,7 +49,6 @@ nslookup
 openvswitch
 openvswitch-switch
 osslsigncode
-OVMF
 ovs-vsctl
 pgrep
 pidof
@@ -61,7 +59,6 @@ pvdisplay
 pvremove
 pvresize
 pvscan
-qbittorrent
 ratbagd
 rgrep
 rmmod

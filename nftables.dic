@@ -10,3 +10,5 @@ oifname
 saddr
 snat
 srcnat
+iiftype
+oiftype

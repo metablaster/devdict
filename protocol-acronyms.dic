@@ -2,7 +2,7 @@
 DNSSEC
 DVMRP
 EIGRP
-igmp
+IGMP
 IGRS
 imap
 imaps
@@ -10,6 +10,6 @@ ISATAP
 OSCP
 OSPFIGP
 QUIC
-smtps
+SMTPS
 SSDP
 VRRP
