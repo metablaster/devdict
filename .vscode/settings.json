@@ -366,7 +366,7 @@
 	"selectline.alignment": "left",
 	"selectline.statusbarPriority": 100,
 	// Extension: Sort Lines
-	"sortLines.filterBlankLines": false,
+	"sortLines.filterBlankLines": true,
 	"sortLines.sortEntireFile": true,
 	// Extension: Todo Tree
 	// NOTE: For markdown settings https://github.com/Gruntfuggly/todo-tree#markdown-support

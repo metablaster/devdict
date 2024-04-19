@@ -13,6 +13,6 @@ tmpfs
 uefi
 vfat
 virt
+VM
 vsync
 XHCI
-VM

@@ -2,14 +2,14 @@
 daddr
 dnat
 dport
+icmpv6
 iifname
+iiftype
 inet
 nexthdr
 nftables
 oifname
+oiftype
 saddr
 snat
 srcnat
-iiftype
-oiftype
-icmpv6

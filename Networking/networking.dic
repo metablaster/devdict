@@ -1,5 +1,6 @@
 # Dictionary of computer networking terms and acronyms (not protocols)
 EDNS
+NIC
 noqueue
 NSEC
 nxdomain
@@ -9,4 +10,3 @@ RRSIG
 RRSIGs
 servfail
 untracked
-NIC

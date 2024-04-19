@@ -5,7 +5,7 @@ dearmor
 diskiograph
 downspeedf
 execi
-gcow
+fs_passno
 gpuutil
 htable
 iface
@@ -34,4 +34,3 @@ virtio
 virtiofs
 voffset
 xftalpha
-fs_passno

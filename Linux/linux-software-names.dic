@@ -14,6 +14,7 @@ ftpd
 fusermount
 getent
 getfacl
+grub-mkconfig
 hdparm
 hping
 hwinfo
@@ -46,6 +47,7 @@ nmcli
 nmtui
 nping
 nslookup
+nvidia-xconfig
 openvswitch
 openvswitch-switch
 osslsigncode
@@ -82,12 +84,10 @@ vgreduce
 vgremove
 vgscan
 virsh
+virt-manager
 whereis
 winehq
 xclip
 xvkbd
 zcat
 zgrep
-nvidia-xconfig
-virt-manager
-grub-mkconfig
