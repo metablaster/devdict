@@ -182,7 +182,7 @@
 		},
 		"dic.foul": {
 			"name": "foul",
-			"path": "~/dev/GitHub/devdict/foul/foul.dic",
+			"path": "~/dev/GitHub/devdict/Foul/foul.dic",
 			"description": "Dictionary of rude words which to flag as forbidden",
 			"scope": "user",
 			"addWords": false
