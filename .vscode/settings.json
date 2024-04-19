@@ -146,14 +146,14 @@
 			"addWords": true
 		},
 		"dic.computer-software-names": {
-			"name": "computer-acronyms",
+			"name": "computer-software-names",
 			"path": "~/dev/GitHub/devdict/Computer/computer-software-names.dic",
 			"description": "OS agnostic dictionary of program, services (daemons) and driver (modules) names",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.computer-software-parameters": {
-			"name": "computer-acronyms",
+			"name": "computer-software-parameters",
 			"path": "~/dev/GitHub/devdict/Computer/computer-software-parameters.dic",
 			"description": "Dictionary OS agnostic program, services (daemons) and driver (modules) parameters (options)",
 			"scope": "user",
@@ -276,6 +276,8 @@
 		"foul": true,
 		// Read-write
 		"computer-acronyms": true,
+		"computer-software-names": true,
+		"computer-software-parameters": true,
 		"computer": true,
 		"development": true,
 		"filetypes": true,
