@@ -138,6 +138,48 @@
 	"cSpell.checkLimit": 500,
 	"cSpell.checkOnlyEnabledFileTypes": true,
 	"cSpell.customDictionaries": {
+		"dic.computer-acronyms": {
+			"name": "computer-acronyms",
+			"path": "~/dev/GitHub/devdict/Computer/computer-acronyms.dic",
+			"description": "OS agnostic dictionary of computer acronyms",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.computer-software-names": {
+			"name": "computer-acronyms",
+			"path": "~/dev/GitHub/devdict/Computer/computer-software-names.dic",
+			"description": "OS agnostic dictionary of program, services (daemons) and driver (modules) names",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.computer-software-parameters": {
+			"name": "computer-acronyms",
+			"path": "~/dev/GitHub/devdict/Computer/computer-software-parameters.dic",
+			"description": "Dictionary OS agnostic program, services (daemons) and driver (modules) parameters (options)",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.computer": {
+			"name": "computer",
+			"path": "~/dev/GitHub/devdict/Computer/computer.dic",
+			"description": "OS agnostic dictionary of computer terms",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.development": {
+			"name": "development",
+			"path": "~/dev/GitHub/devdict/Computer/development.dic",
+			"description": "Dictionary of software development terms or symbols",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.filetypes": {
+			"name": "filetypes",
+			"path": "~/dev/GitHub/devdict/Computer/filetypes.dic",
+			"description": "Dictionary of file types and extensions",
+			"scope": "user",
+			"addWords": true
+		},
 		"dic.foul": {
 			"name": "foul",
 			"path": "~/dev/GitHub/devdict/foul/foul.dic",
@@ -145,114 +187,86 @@
 			"scope": "user",
 			"addWords": false
 		},
-		"dic.computer-acronyms": {
-			"name": "computer-acronyms",
-			"path": "~/dev/GitHub/devdict/computer-acronyms.dic",
-			"description": "Dictionary of OS agnostic computer acronyms (not OS specific)",
-			"scope": "user",
-			"addWords": true
-		},
-		"dic.computer": {
-			"name": "computer",
-			"path": "~/dev/GitHub/devdict/computer.dic",
-			"description": "Dictionary of OS agnostic computer terms (not OS specific)",
-			"scope": "user",
-			"addWords": true
-		},
-		"dic.development": {
-			"name": "development",
-			"path": "~/dev/GitHub/devdict/development.dic",
-			"description": "Dictionary of software development terms",
-			"scope": "user",
-			"addWords": true
-		},
-		"dic.filetypes": {
-			"name": "filetypes",
-			"path": "~/dev/GitHub/devdict/filetypes.dic",
-			"description": "Dictionary of file types and extensions",
-			"scope": "user",
-			"addWords": true
-		},
 		"dic.linux-acronyms": {
 			"name": "linux-acronyms",
-			"path": "~/dev/GitHub/devdict/linux-acronyms.dic",
-			"description": "Dictionary of computer acronyms on linux system",
+			"path": "~/dev/GitHub/devdict/Linux/linux-acronyms.dic",
+			"description": "Dictionary of computer acronyms on Linux system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.linux-software-names": {
 			"name": "linux-software-names",
-			"path": "~/dev/GitHub/devdict/linux-software-names.dic",
-			"description": "Dictionary of program, services (daemons) and driver (modules) names on linux system",
+			"path": "~/dev/GitHub/devdict/Linux/linux-software-names.dic",
+			"description": "Dictionary of program, services (daemons) and driver (modules) names on Linux system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.linux-software-parameters": {
 			"name": "linux-software-parameters",
-			"path": "~/dev/GitHub/devdict/linux-software-parameters.dic",
-			"description": "Dictionary of program, services (daemons) and driver (modules) parameters (options) on linux system",
+			"path": "~/dev/GitHub/devdict/Linux/linux-software-parameters.dic",
+			"description": "Dictionary of program, services (daemons) and driver (modules) parameters (options) on Linux system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.linux": {
 			"name": "linux",
-			"path": "~/dev/GitHub/devdict/linux.dic",
-			"description": "Dictionary of computer terms on linux system",
+			"path": "~/dev/GitHub/devdict/Linux/linux.dic",
+			"description": "Dictionary of computer terms on Linux system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.networking": {
 			"name": "networking",
-			"path": "~/dev/GitHub/devdict/networking.dic",
+			"path": "~/dev/GitHub/devdict/Networking/networking.dic",
 			"description": "Dictionary of computer networking terms and acronyms (not protocols)",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.nftables": {
 			"name": "nftables",
-			"path": "~/dev/GitHub/devdict/nftables.dic",
+			"path": "~/dev/GitHub/devdict/Networking/nftables.dic",
 			"description": "Dictionary of nftables firewall keywords",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.protocol-acronyms": {
 			"name": "protocol-acronyms",
-			"path": "~/dev/GitHub/devdict/protocol-acronyms.dic",
+			"path": "~/dev/GitHub/devdict/Networking/protocol-acronyms.dic",
 			"description": "Dictionary of computer protocol acronyms",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.protocols": {
 			"name": "protocols",
-			"path": "~/dev/GitHub/devdict/protocols.dic",
-			"description": "Dictionary of computer protocol names",
+			"path": "~/dev/GitHub/devdict/Networking/protocols.dic",
+			"description": "Dictionary of computer protocol names (not acronyms)",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.windows-acronyms": {
 			"name": "windows-acronyms",
-			"path": "~/dev/GitHub/devdict/windows-acronyms.dic",
+			"path": "~/dev/GitHub/devdict/Windows/windows-acronyms.dic",
 			"description": "Dictionary of computer acronyms on Windows system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.windows-software-names": {
 			"name": "windows-software-names",
-			"path": "~/dev/GitHub/devdict/windows-software-names.dic",
+			"path": "~/dev/GitHub/devdict/Windows/windows-software-names.dic",
 			"description": "Dictionary of program, services (daemons) and driver (modules) names on Windows system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.windows-software-parameters": {
 			"name": "windows-software-parameters",
-			"path": "~/dev/GitHub/devdict/windows-software-parameters.dic",
+			"path": "~/dev/GitHub/devdict/Windows/windows-software-parameters.dic",
 			"description": "Dictionary of program, services (daemons) and driver (modules) parameters (options) on Windows system",
 			"scope": "user",
 			"addWords": true
 		},
 		"dic.windows": {
 			"name": "windows",
-			"path": "~/dev/GitHub/devdict/windows.dic",
+			"path": "~/dev/GitHub/devdict/Windows/windows.dic",
 			"description": "Dictionary of computer terms on Windows system",
 			"scope": "user",
 			"addWords": true
