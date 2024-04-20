@@ -1,1 +1,4 @@
 # Dictionary of program, services (daemons) and driver (modules) parameters (options) on Windows system
+dnscache
+flushdns
+nobanner

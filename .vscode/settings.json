@@ -166,17 +166,38 @@
 			"scope": "user",
 			"addWords": true
 		},
-		"dic.development": {
-			"name": "development",
-			"path": "~/dev/GitHub/devdict/Computer/development.dic",
-			"description": "Dictionary of software development terms or symbols",
-			"scope": "user",
-			"addWords": true
-		},
 		"dic.filetypes": {
 			"name": "filetypes",
 			"path": "~/dev/GitHub/devdict/Computer/filetypes.dic",
 			"description": "Dictionary of file types and extensions",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.cpp": {
+			"name": "cpp",
+			"path": "~/dev/GitHub/devdict/Development/cpp.dic",
+			"description": "Dictionary of C++ development terms or symbols",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.development": {
+			"name": "development",
+			"path": "~/dev/GitHub/devdict/Development/development.dic",
+			"description": "Dictionary of general software development terms or symbols",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.powershell": {
+			"name": "powershell",
+			"path": "~/dev/GitHub/devdict/Development/powershell.dic",
+			"description": "Dictionary of PowerShell development terms or symbols",
+			"scope": "user",
+			"addWords": true
+		},
+		"dic.windowsdev": {
+			"name": "windowsdev",
+			"path": "~/dev/GitHub/devdict/Development/windowsdev.dic",
+			"description": "Dictionary of software development terms or symbols specific to Windows",
 			"scope": "user",
 			"addWords": true
 		},
@@ -229,17 +250,10 @@
 			"scope": "user",
 			"addWords": true
 		},
-		"dic.protocol-acronyms": {
-			"name": "protocol-acronyms",
-			"path": "~/dev/GitHub/devdict/Networking/protocol-acronyms.dic",
-			"description": "Dictionary of computer protocol acronyms",
-			"scope": "user",
-			"addWords": true
-		},
 		"dic.protocols": {
 			"name": "protocols",
 			"path": "~/dev/GitHub/devdict/Networking/protocols.dic",
-			"description": "Dictionary of computer protocol names (not acronyms)",
+			"description": "Dictionary of network protocol acronyms",
 			"scope": "user",
 			"addWords": true
 		},
@@ -279,16 +293,18 @@
 		"computer-software-names": true,
 		"computer-software-parameters": true,
 		"computer": true,
-		"development": true,
 		"filetypes": true,
+		"cpp": true,
+		"development": true,
+		"powershell": true,
+		"windowsdev": true,
+		"networking": true,
+		"nftables": true,
+		"protocols": true,
 		"linux-acronyms": true,
 		"linux-software-names": true,
 		"linux-software-parameters": true,
 		"linux": true,
-		"networking": true,
-		"nftables": true,
-		"protocol-acronyms": true,
-		"protocols": true,
 		"windows-acronyms": true,
 		"windows-software-names": true,
 		"windows-software-parameters": true,

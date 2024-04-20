@@ -7,6 +7,9 @@ diskio
 DTCP
 EIST
 FTPM
+LTSB
+LTSC
+PKCS
 squashfs
 sysfs
 tmpfs

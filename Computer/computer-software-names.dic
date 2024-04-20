@@ -1,5 +1,19 @@
 # OS agnostic dictionary of program, services (daemons) and driver (modules) names
+Bittorrent
+dirmngr
+dnscrypt
+FileZilla
+fzsftp
+gpgconf
+Incredibuild
+Motrix
+netstat
+nmap
+nslookup
+openttd
 popd
 pushd
 pwsafe
 qbittorrent
+Thuderbird
+whois

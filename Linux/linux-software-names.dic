@@ -42,6 +42,7 @@ mklost+found
 mokutil
 networkctl
 networkd
+nftables
 nmap
 nmcli
 nmtui
