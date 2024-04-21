@@ -5,6 +5,7 @@ AllJoyn
 Avira
 Bing
 binn
+chocolately
 Clicktorun
 compmgmt
 conhost
@@ -71,6 +72,7 @@ pwrshplugin
 pwsh
 QWAVE
 RivaTuner
+robocopy
 RPCSS
 rundll
 secpol
@@ -94,6 +96,7 @@ usocoreworker
 utcsvc
 vcpkg
 vcpkgmetricsuploader
+vcpkgsrv
 vctip
 visio
 VSIX

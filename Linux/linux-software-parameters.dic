@@ -24,8 +24,10 @@ onlink
 pflash
 proto
 reloadagent
+schannel
 srcip
 swapperc
+textconv
 totalup
 unspec
 upspeedf

@@ -54,6 +54,7 @@ tcpwin
 Traceroute
 Unicast
 untracked
+vsock
 Wifi
 WLAN
 workgroup

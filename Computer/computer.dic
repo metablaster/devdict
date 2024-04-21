@@ -1,4 +1,6 @@
 # OS agnostic dictionary of computer terms
+astextplain
+Cascadia
 cdrom
 cheksums
 chipset
@@ -6,6 +8,7 @@ Datacenter
 deviceenroller
 Eicar
 executables
+gpgkey
 Guids
 outputed
 rhosts

@@ -1,5 +1,6 @@
 # OS agnostic dictionary of program, services (daemons) and driver (modules) names
 Bittorrent
+bjam
 dirmngr
 dnscrypt
 FileZilla
