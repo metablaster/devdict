@@ -8,6 +8,7 @@ Dialup
 DTCP
 EDNS
 EIGRP
+fq_codel
 hostnames
 IANA
 icmpcode
@@ -27,14 +28,17 @@ netmask
 nettcpip
 NetworkDelayms
 NIC
+noprefixroute
 noqueue
 NSEC
 NTLM
 nxdomain
 OSPFIGP
 pdelay
+permaddr
 pingsender
 qdisc
+qlen
 Remoting
 routable
 RRSIG

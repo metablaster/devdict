@@ -76,6 +76,7 @@ syslogd
 systemctl
 timedatectl
 timesyncd
+tput
 udevadm
 unrar
 uuidgen

@@ -24,7 +24,12 @@ onlink
 pflash
 proto
 reloadagent
+rmso
+rmul
 schannel
+setab
+setaf
+smul
 srcip
 swapperc
 textconv
