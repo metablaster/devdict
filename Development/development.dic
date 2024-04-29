@@ -5,6 +5,7 @@ cdxml
 checkin
 ctinfo
 devenv
+dontUse
 gitattributes
 gpgsign
 hardcoded

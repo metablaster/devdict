@@ -7,7 +7,7 @@
 {
 	// VSCode: File specific settings
 	"[markdown]": {
-		// Word wrapping must be explicity set for markdown
+		// Word wrapping must be explicitly set for markdown
 		// see: https://github.com/microsoft/vscode/issues/72559
 		"editor.wordWrap": "off",
 		// Markdown standard is 2 spaces for indentation
@@ -19,11 +19,14 @@
 		// NOTE: markdown-all-in-one formatting will work only with newly created lists, tables and TOC
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
 	},
-	// VSCode: audio cues
+	// VSCode: Accessibility
 	"accessibility.signals.lineHasError": {
 		"sound": "off"
 	},
 	"accessibility.signals.lineHasWarning": {
+		"sound": "off"
+	},
+	"accessibility.signals.terminalBell": {
 		"sound": "off"
 	},
 	// VSCode: diffeditor
@@ -187,6 +190,13 @@
 			"scope": "user",
 			"addWords": true
 		},
+		"dic.extensions": {
+			"name": "extensions",
+			"path": "~/dev/GitHub/devdict/Development/extensions.dic",
+			"description": "Dictionary of VSCode extension identifiers",
+			"scope": "user",
+			"addWords": true
+		},
 		"dic.powershell": {
 			"name": "powershell",
 			"path": "~/dev/GitHub/devdict/Development/powershell.dic",
@@ -296,6 +306,7 @@
 		"filetypes": true,
 		"cpp": true,
 		"development": true,
+		"extensions": true,
 		"powershell": true,
 		"windowsdev": true,
 		"networking": true,
