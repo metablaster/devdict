@@ -11,6 +11,7 @@ executables
 gpgkey
 Guids
 outputed
+Realtek
 rhosts
 shosts
 sparsify

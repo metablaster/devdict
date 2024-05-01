@@ -274,6 +274,13 @@
 			"scope": "user",
 			"addWords": true
 		},
+		"dic.storeapps": {
+			"name": "storeapps",
+			"path": "~/dev/GitHub/devdict/Windows/storeapps.dic",
+			"description": "Dictionary of Microsoft store app identifiers",
+			"scope": "user",
+			"addWords": true
+		},
 		"dic.windows-acronyms": {
 			"name": "windows-acronyms",
 			"path": "~/dev/GitHub/devdict/Windows/windows-acronyms.dic",
@@ -324,6 +331,7 @@
 		"linux-software-names": true,
 		"linux-software-parameters": true,
 		"linux": true,
+		"storeapps": true,
 		"windows-acronyms": true,
 		"windows-software-names": true,
 		"windows-software-parameters": true,

@@ -10,6 +10,7 @@ cnotmatch
 commandlet
 commandlets
 ICONURI
+INFA
 isnot
 LICENSEURI
 notcontains
@@ -25,5 +26,6 @@ PSObject
 psscriptroot
 PSUICulture
 PSVERSION
+RPCEPMap
 Snapin
 SQLPS

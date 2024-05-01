@@ -13,12 +13,14 @@ hostnames
 IANA
 icmpcode
 icmptype
+ifOperStatus
 inet
 Internetwork
 IP
 ipaddress
 IPHTTPS
 ISATAP
+iSCSI
 loopback
 Miracast
 MITM
