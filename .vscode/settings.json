@@ -169,6 +169,13 @@
 			"scope": "user",
 			"addWords": true
 		},
+		"dic.domains": {
+			"name": "domains",
+			"path": "~/dev/GitHub/devdict/Computer/domains.dic",
+			"description": "Dictionary of web domains",
+			"scope": "user",
+			"addWords": true
+		},
 		"dic.filetypes": {
 			"name": "filetypes",
 			"path": "~/dev/GitHub/devdict/Computer/filetypes.dic",
@@ -303,6 +310,7 @@
 		"computer-software-names": true,
 		"computer-software-parameters": true,
 		"computer": true,
+		"domains": true,
 		"filetypes": true,
 		"cpp": true,
 		"development": true,
