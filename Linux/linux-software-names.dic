@@ -56,6 +56,7 @@ osslsigncode
 ovs-vsctl
 pgrep
 pidof
+pipx
 pkexec
 pkill
 pvchange
