@@ -90,7 +90,6 @@
 	"explorer.confirmDragAndDrop": false,
 	// VSCode: Workspace files
 	"files.associations": {
-		"*.config": "properties",
 		"LICENSE": "plaintext"
 	},
 	"files.autoSave": "afterDelay",
