@@ -15,9 +15,12 @@ endregion
 Getstarted
 gitattributes
 globbing
+gmock
 gpgsign
+gtest
 hardcoded
 Hashtable
+IWYU
 jsonic
 launchable
 libglvnd
@@ -26,7 +29,9 @@ mingw
 Mitigations
 MSVC
 MSYS
+nologo
 nonlocal
+outdent
 Precompiled
 precompiling
 PROJECTURI
@@ -40,9 +45,11 @@ SDK
 selectline
 Sizekb
 strftime
+STRINGIZE
 tabwidth
 Timeoutms
 TODO
+tparam
 UMDF
 uncheck
 Undock
@@ -56,6 +63,7 @@ untracked
 Untrusted
 Uploader
 Usermode
+vs-seti
+wchars
 winsock
 WSDAPI
-vs-seti

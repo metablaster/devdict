@@ -1,6 +1,16 @@
 # Dictionary of C++ development terms or symbols
+cppbuild
+cpptools
 Functors
 ifdef
 lvalue
+NDEBUG
+Noexcept
 nullptr
+openmp
+ptrdif_t
+rvalue
+Struct
+structs
 ulong
+wchar_t
