@@ -1,6 +1,7 @@
 __cdecl
 # Dictionary of software development terms or symbols specific to Windows
 cimv
+comdlg
 dword
 HRESULT
 IDCANCEL
@@ -12,12 +13,17 @@ LPCCH
 lpszDomain
 lpszPassword
 lpszUsername
+LTCGOUT
 maml
+MANIFESTUAC
 MB_OKCANCEL
 mbchar
 MSIL
+NOICF
 NOMINMAX
+NOREF
 NTSTATUS
+NXCOMPAT
 opendb
 opensdf
 parallelizer
@@ -30,6 +36,7 @@ SACL
 SDDL
 SDKDDKVer
 TCHAR
+TLBID
 tlog
 VBSCRIPT
 vssettings
