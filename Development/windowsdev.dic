@@ -2,7 +2,9 @@ __cdecl
 # Dictionary of software development terms or symbols specific to Windows
 cimv
 comdlg
+cppvsdbg
 dword
+HIWORD
 HRESULT
 IDCANCEL
 IDOK
@@ -19,11 +21,17 @@ MANIFESTUAC
 MB_OKCANCEL
 mbchar
 MSIL
+msvcprt
+msvcprtd
+msvcrt
+msvcrtd
 NOICF
 NOMINMAX
 NOREF
 NTSTATUS
 NXCOMPAT
+odbccp32
+oleaut32
 opendb
 opensdf
 parallelizer
@@ -38,6 +46,10 @@ SDKDDKVer
 TCHAR
 TLBID
 tlog
+ucrt
+ucrtd
 VBSCRIPT
+vcruntime
+vcruntimed
 vssettings
 WINXP
