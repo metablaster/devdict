@@ -1,6 +1,7 @@
 # Dictionary of C++ development terms or symbols
 cctype
 cfenv
+charconv
 cinttypes
 clocale
 cmath
@@ -31,3 +32,17 @@ Struct
 structs
 ulong
 wchar_t
+xfacet
+xhash
+xiosbase
+xlocale
+xlocbuf
+xlocinfo
+xlocmes
+xlocmon
+xlocnum
+xloctime
+xmemory
+xstring
+xtree
+xutility
