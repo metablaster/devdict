@@ -1,11 +1,14 @@
 # Dictionary of program, services (daemons) and driver (modules) names on Linux system
 blkid
 chgrp
+coreutils
 crond
+devscripts
 dpkg
 dumpe2fs
 e2mmpstatus
 efibootmgr
+equivs
 fdisk
 fgrep
 filezilla
@@ -21,6 +24,7 @@ hwinfo
 inxi
 journalctl
 kcalc
+kclock
 kdeconnect
 kdeconnectd
 kfind
@@ -67,6 +71,7 @@ pvresize
 pvscan
 ratbagd
 rgrep
+rmadison
 rmmod
 rsyslog
 setfacl
