@@ -1,9 +1,11 @@
 # Dictionary of program, services (daemons) and driver (modules) names on Linux system
+acpi
 autorandr
 blkid
 chgrp
 coreutils
 crond
+devdump
 devscripts
 dpkg
 dumpe2fs
@@ -26,6 +28,7 @@ ifdown
 ifup
 inxi
 iptunnel
+isovfy
 iwconfig
 journalctl
 kcalc
@@ -42,6 +45,7 @@ libvirtd
 lnav
 lshw
 lsusb
+ltrace
 Lutris
 lvchange
 lvdisplay
@@ -105,8 +109,10 @@ virsh
 virt-manager
 whereis
 winehq
+wodim
 xclip
 xrandr
+xtrace
 xvkbd
 zcat
 zgrep
