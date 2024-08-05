@@ -1,4 +1,5 @@
 # Dictionary of program, services (daemons) and driver (modules) names on Linux system
+autorandr
 blkid
 chgrp
 coreutils
@@ -21,7 +22,11 @@ grub-mkconfig
 hdparm
 hping
 hwinfo
+ifdown
+ifup
 inxi
+iptunnel
+iwconfig
 journalctl
 kcalc
 kclock
@@ -46,6 +51,7 @@ lvremove
 lvscan
 mklost+found
 mokutil
+nameif
 networkctl
 networkd
 nftables
@@ -55,6 +61,7 @@ nmtui
 nping
 nslookup
 nvidia-xconfig
+nvtop
 okular
 openvswitch
 openvswitch-switch
@@ -99,6 +106,7 @@ virt-manager
 whereis
 winehq
 xclip
+xrandr
 xvkbd
 zcat
 zgrep
