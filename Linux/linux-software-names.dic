@@ -2,6 +2,7 @@
 acpi
 autorandr
 blkid
+bzcat
 chgrp
 coreutils
 crond
@@ -53,6 +54,11 @@ lvextend
 lvreduce
 lvremove
 lvscan
+lzcat
+lzip
+lzma
+lzop
+machinectl
 mklost+found
 mokutil
 nameif
@@ -97,8 +103,11 @@ timedatectl
 timesyncd
 tput
 udevadm
+unlzma
 unrar
+unxz
 uuidgen
+vdir
 vgchange
 vgdisplay
 vgextend
@@ -114,5 +123,6 @@ xclip
 xrandr
 xtrace
 xvkbd
+xzcat
 zcat
 zgrep

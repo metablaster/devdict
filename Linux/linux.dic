@@ -5,6 +5,7 @@ distros
 hwmon
 inputrc
 libc6
+libxcb
 nsswitch
 resolv
 runit
