@@ -1,11 +1,17 @@
 # Dictionary of program, services (daemons) and driver (modules) names on Linux system
+aafire
 acpi
 autorandr
 blkid
+bluetoothctl
 bzcat
+chage
+chattr
 chgrp
+cmatrix
 coreutils
 crond
+debsecan
 devdump
 devscripts
 dpkg
@@ -21,6 +27,9 @@ ftpd
 fusermount
 getent
 getfacl
+grpchk
+grpconv
+grpunconv
 grub-mkconfig
 hdparm
 hping
@@ -87,11 +96,16 @@ pvdisplay
 pvremove
 pvresize
 pvscan
+pwck
+pwconv
+pwunconv
+qmake
 ratbagd
 rgrep
 rmadison
 rmmod
 rsyslog
+sdiff
 setfacl
 smartctl
 spice-vdagent
@@ -116,6 +130,7 @@ vgremove
 vgscan
 virsh
 virt-manager
+wdiff
 whereis
 winehq
 wodim
@@ -123,6 +138,7 @@ xclip
 xrandr
 xtrace
 xvkbd
+xwayland
 xzcat
 zcat
 zgrep

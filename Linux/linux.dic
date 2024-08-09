@@ -4,6 +4,7 @@ distro
 distros
 hwmon
 inputrc
+libaa
 libc6
 libxcb
 nsswitch
